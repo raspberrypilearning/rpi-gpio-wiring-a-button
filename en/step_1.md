@@ -1,5 +1,3 @@
-### Wiring a single button
-
 A button is more or less the simplest of the input components you can wire to a Raspberry Pi.
 A button is a non-polarised component. This means you can place it in a circuit either way round, and it will still work.
 
