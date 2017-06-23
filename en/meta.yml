@@ -1,10 +1,13 @@
 title: Using a button with a Raspberry Pi
 hero_image: images/banner.png
-subtitle: rpi-wiring-a-button subtitle
 description: rpi-wiring-a-button description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+original_url:
 theme: cc-prototype
-published: false
+duration: 1
+listed: false
+ingredient: true
+interests: ""
+technologies: ""
 steps:
   - title: Connecting a button
 
