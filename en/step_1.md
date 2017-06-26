@@ -1,17 +1,12 @@
-## Wiring a single button
+A button is one of the simplest input components you can wire to a Raspberry Pi. It's a non-polarised component, which means you can place it in a circuit either way round and it will work.
 
-A button is more or less the simplest of the input components you can wire to a Raspberry Pi.
-A button is a non-polarised component. This means you can place it in a circuit either way round, and it will still work.
+There are various types of buttons - they can for example have two or four legs. The two-leg versions are mostly used with flying wire to connect to the control device. Buttons with four legs are generally mounted on a PCB or a breadboard.
 
-There are various types of button that you can use. Some have two legs and others have four legs. The two leg versions are usually designed to be used in with flying wires, that connect to the control device.
+The diagrams below shows how to wire a two-leg or four-leg button to a Raspberry Pi. In both cases, GPIO pin 17 is the input pin.
 
-Buttons with four legs are usually mounted on a PCB or a breadboard.
-
-Look at the diagrams below to see how you can wire a button to a Raspberry Pi. In both cases GPIO pin 17 is being used as the input pin.
-
-![4-pin-btn](images/4-pin-btn.png)
 ![2-pin-btn](images/2-pin-btn.png)
+![4-pin-btn](images/4-pin-btn.png)
 
-If you are using multiple buttons, then it is often better to use a *common ground*. This prevents too many jumper leads being used. You can wire the negative rail on the breadboard to a single *ground* pin and then all the buttons can use the same ground rail.
+If you are using multiple buttons, then it is often best to use a *common Ground* to avoid connecting too many jumper leads to **GND** pins. You can wire the negative rail on the breadboard to a single *ground* pin, which allows all the buttons to use the same ground rail.
 
 ![2x4-pin-btn](images/2x4-pin-btn.png)
