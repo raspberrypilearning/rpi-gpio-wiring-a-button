@@ -4,9 +4,9 @@ There are various types of buttons - they can for example have two or four legs.
 
 The diagrams below shows how to wire a two-leg or four-leg button to a Raspberry Pi. In both cases, **GPIO 17** is the input pin.
 
-![2-pin-btn](images/2-pin-btn.png)
-![4-pin-btn](images/4-pin-btn.png)
+![2-pin-btn](images/2-pin-button.png)
+![4-pin-btn](images/4-pin-button.png)
 
 If you are using multiple buttons, then it is often best to use a *common ground* to avoid connecting too many jumper leads to **GND** pins. You can wire the negative rail on the breadboard to a single *ground* pin, which allows all the buttons to use the same ground rail.
 
-![2x4-pin-btn](images/2x4-pin-btn.png)
+![2x4-pin-btn](images/2x4-pin-button.png)
