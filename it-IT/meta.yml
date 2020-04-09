@@ -1,0 +1,15 @@
+---
+title: Utilizzare un pulsante con un Raspberry Pi
+hero_image: images/banner.png
+description: Come collegare un pulsante al tuo Raspberry Pi
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: Collegare un pulsante
+
