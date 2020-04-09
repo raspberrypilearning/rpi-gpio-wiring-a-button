@@ -1,0 +1,15 @@
+---
+title: Χρησιμοποιώντας ένα κουμπί με ένα Raspberry Pi
+hero_image: images/banner.png
+description: Πώς να συνδέσεις ένα κουμπί στο Raspberry Pi
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: Συνδέοντας ένα κουμπί
+

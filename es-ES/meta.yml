@@ -1,0 +1,15 @@
+---
+title: Usando un botón con una Raspberry Pi
+hero_image: images/banner.png
+description: Cómo conectar un botón a tu Raspberry Pi
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: Conectar un botón
+
