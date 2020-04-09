@@ -1,11 +1,11 @@
-A button is one of the simplest input components you can wire to a Raspberry Pi. It's a non-polarised component, which means you can place it in a circuit either way round and it will work.
+Ένα κουμπί είναι ένα από τα απλούστερα στοιχεία εισόδου που μπορείς να συνδέσεις σε ένα Raspberry Pi. Είναι ένα εξάρτημα χωρίς πολικότητα, που σημαίνει ότι μπορείς να το τοποθετήσεις σε ένα κύκλωμα από οποιαδήποτε πλευρά και θα λειτουργήσει.
 
-There are various types of buttons - they can for example have two or four legs. The two-leg versions are mostly used with flying wire to connect to the control device. Buttons with four legs are generally mounted on a PCB or a breadboard.
+Υπάρχουν διάφοροι τύποι κουμπιών - μπορούν για παράδειγμα να έχουν δύο ή τέσσερις ακροδέκτες. Οι εκδόσεις δύο ακροδεκτών χρησιμοποιούνται ως επί το πλείστον με σύρμα στον αέρα για σύνδεση με τη συσκευή ελέγχου. Τα κουμπιά με τέσσερις ακροδέκτες γενικά τοποθετούνται σε ένα τυπωμένο κύκλωμα ή ένα ράστερ.
 
-The diagrams below shows how to wire a two-leg or four-leg button to a Raspberry Pi. In both cases, **GPIO 17** is the input pin.
+Τα παρακάτω διαγράμματα δείχνουν τον τρόπο σύνδεσης ενός κουμπιού με δύο ή τέσσερις ακροδέκτες σε ένα Raspberry Pi. Και στις δύο περιπτώσεις, ** GPIO 17 ** είναι ο ακροδέκτης εισόδου.
 
-![2-pin-btn](images/2-pin-button.png) ![4-pin-btn](images/4-pin-button.png)
+![Κουμπί-2-ακίδων](images/2-pin-button.png) ![κουμπί-4-ακίδων](images/4-pin-button.png)
 
-If you are using multiple buttons, then it is often best to use a *common ground* to avoid connecting too many jumper leads to **GND** pins. You can wire the negative rail on the breadboard to a single *ground* pin, which allows all the buttons to use the same ground rail.
+Εάν χρησιμοποιείτε πολλαπλά κουμπιά, τότε είναι συχνά καλύτερο να χρησιμοποιήσετε ένα σημείο * κοινής γείωσης* για να αποφύγετε τη σύνδεση πάρα πολλών αγωγών διασύνδεσης στις ακίδες ** GND **. Μπορείτε να καλωδιώσετε την αρνητική γραμμή στο ράστερ σε μία μόνο ακίδα * γείωσης *, η οποία επιτρέπει σε όλα τα κουμπιά να χρησιμοποιούν την ίδια γείωση.
 
-![2x4-pin-btn](images/2x4-pin-button.png)
+![κουμπί-2x4- ακίδων](images/2x4-pin-button.png)
