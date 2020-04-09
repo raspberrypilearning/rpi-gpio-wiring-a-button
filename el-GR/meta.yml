@@ -1,7 +1,7 @@
 ---
-title: Using a button with a Raspberry Pi
+title: Χρησιμοποιώντας ένα κουμπί με ένα Raspberry Pi
 hero_image: images/banner.png
-description: How to connect a button to your Raspberry Pi
+description: Πώς να συνδέσεις ένα κουμπί στο Raspberry Pi
 original_url:
 theme: cc-prototype
 duration: 1
@@ -12,5 +12,5 @@ interests: ""
 technologies: ""
 steps:
   - 
-    title: Connecting a button
+    title: Συνδέοντας ένα κουμπί
 
