@@ -1,11 +1,11 @@
-A button is one of the simplest input components you can wire to a Raspberry Pi. It's a non-polarised component, which means you can place it in a circuit either way round and it will work.
+الرز هو احد ابسط مهام الادخال التي يمكنك توصيلها بجهاز Raspberry Pi. إنه مكون غير مستقطب، مما يعني أنه يمكنك وضعه في الدائرة الكهربائية بأي طريقة في كانت وسيعمل.
 
-There are various types of buttons - they can for example have two or four legs. The two-leg versions are mostly used with flying wire to connect to the control device. Buttons with four legs are generally mounted on a PCB or a breadboard.
+هناك أنواع مختلفة من الأزرار - يمكن أن يكون لها على سبيل المثال ساقين أو أربعة. ممكن أستخدام الإصدار ذو الساقين في الغالب مع الأسلاك للأتصال بجهاز التحكم. يتم تثبيت الأزرار ذات الأربعة سيقان بشكل عام على لوحة الدوائر المطبوعة أو لوحة التوصيل.
 
-The diagrams below shows how to wire a two-leg or four-leg button to a Raspberry Pi. In both cases, **GPIO 17** is the input pin.
+توضح الرسوم البيانية أدناه كيفية توصيل زر ذي ساقين أو أربع سيقان بجهاز Raspberry Pi. في كلتا الحالتين، ** GPIO 17 ** هو نقطة الإدخال.
 
 ![2-pin-btn](images/2-pin-button.png) ![4-pin-btn](images/4-pin-button.png)
 
-If you are using multiple buttons, then it is often best to use a *common ground* to avoid connecting too many jumper leads to **GND** pins. You can wire the negative rail on the breadboard to a single *ground* pin, which allows all the buttons to use the same ground rail.
+إذا كنت تستخدم أزرارًا متعددة، فمن الأفضل غالبًا استخدام * أرضية مشتركة * لتجنب توصيل عدد كبير جدًا من وصلات المرور إلى ** GND ** النقطة المعنية. يمكنك توصيل السكة السالبة على لوحة التوصيل بأرضية * واحدة * الى النقطة، والذي يسمح لجميع الأزرار باستخدام نفس السكة الأرضية.
 
 ![2x4-pin-btn](images/2x4-pin-button.png)
