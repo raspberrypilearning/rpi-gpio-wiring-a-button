@@ -4,8 +4,8 @@
 
 Нижченаведені діаграми показують як приєднати кнопку з двома або чотирма ніжками до Raspberry Pi. В обох випадках **GPIO 17** є вхідним піном.
 
-![2-pin-btn](images/2-pin-button.png) ![4-pin-btn](images/4-pin-button.png)
+![кнопка з 2-ма ніжками](images/2-pin-button.png) ![кнопка з 4-ма ніжками](images/4-pin-button.png)
 
-If you are using multiple buttons, then it is often best to use a *common ground* to avoid connecting too many jumper leads to **GND** pins. You can wire the negative rail on the breadboard to a single *ground* pin, which allows all the buttons to use the same ground rail.
+Якщо ти використовуєш декілька кнопок, часто краще використовувати *спільне заземлення*, щоб не використовувати занадто багато перемичок, що ведуть до пінів **GND**. Ти можеш приєднати негативну шину на макетній платі до єдиного піна *заземлення*, що дозволяє всім кнопкам викристовувати єдину заземлену шину.
 
-![2x4-pin-btn](images/2x4-pin-button.png)
+![2 кнопки з 4-ма ніжками](images/2x4-pin-button.png)
