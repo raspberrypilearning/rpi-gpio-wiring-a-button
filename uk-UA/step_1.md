@@ -1,8 +1,8 @@
-A button is one of the simplest input components you can wire to a Raspberry Pi. It's a non-polarised component, which means you can place it in a circuit either way round and it will work.
+Кнопка — один з найпростіших компонентів вводу, які ти можеш приєднати до Raspberry Pi. Вона є неполяризованим компонентом, тобто таким, який ти можеш розмістити в електричному колі в будь-якому напрямі, і він працюватиме.
 
-There are various types of buttons - they can for example have two or four legs. The two-leg versions are mostly used with flying wire to connect to the control device. Buttons with four legs are generally mounted on a PCB or a breadboard.
+Існують різні типи кнопок, наприклад вони можуть мати дві або чотири ніжки. Версії з двома ніжками в основному використовуються з дротами для з’єднання з контролюючим пристроєм. Кнопки з чотирма ніжками в основному встановлюються на друковані або макетні плати.
 
-The diagrams below shows how to wire a two-leg or four-leg button to a Raspberry Pi. In both cases, **GPIO 17** is the input pin.
+Нижченаведені діаграми показують як приєднати кнопку з двома або чотирма ніжками до Raspberry Pi. В обох випадках **GPIO 17** є вхідним піном.
 
 ![2-pin-btn](images/2-pin-button.png) ![4-pin-btn](images/4-pin-button.png)
 
