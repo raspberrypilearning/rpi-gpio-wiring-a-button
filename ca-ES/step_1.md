@@ -1,11 +1,11 @@
-A button is one of the simplest input components you can wire to a Raspberry Pi. It's a non-polarised component, which means you can place it in a circuit either way round and it will work.
+Un interruptor és un dels components d’entrada més senzills que pots connectar a una Raspberry Pi. És un component no polaritzat, cosa que vol dir que el pots col·locar en un circuit de qualsevol manera i funcionarà.
 
-There are various types of buttons - they can for example have two or four legs. The two-leg versions are mostly used with flying wire to connect to the control device. Buttons with four legs are generally mounted on a PCB or a breadboard.
+Hi ha diversos tipus d'interruptors; per exemple, poden tenir dues o quatre potes. Les versions de dues potes s'utilitzen principalment amb cable a l'aire per connectar-se al dispositiu de control. Els interruptors de quatre potes generalment es munten sobre un PCB o una placa de proves.
 
-The diagrams below shows how to wire a two-leg or four-leg button to a Raspberry Pi. In both cases, **GPIO 17** is the input pin.
+Els gràfics que es mostren a continuació mostren com connectar un interrptor de dues potes o de quatre potes a una Raspberry Pi. En ambdós casos, **GPIO 17** és el pin d’entrada.
 
 ![2-pin-btn](images/2-pin-button.png) ![4-pin-btn](images/4-pin-button.png)
 
-If you are using multiple buttons, then it is often best to use a *common ground* to avoid connecting too many jumper leads to **GND** pins. You can wire the negative rail on the breadboard to a single *ground* pin, which allows all the buttons to use the same ground rail.
+Si fas servir diversos interruptors, és millor utilitzar un *terra comú* per evitar la connexió de masses cables pont a pins de terra **GND**. Pots connectar la filera negativa de la placa de proves a un únic pin *terra*, que permeti que tots els interruptors utilitzin la mateixa filera terra.
 
 ![2x4-pin-btn](images/2x4-pin-button.png)
