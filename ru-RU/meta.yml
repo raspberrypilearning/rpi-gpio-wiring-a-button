@@ -1,0 +1,15 @@
+---
+title: Использование кнопки с Raspberry Pi
+hero_image: images/banner.png
+description: Как подключить кнопку к вашему Raspberry Pi
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: Подключение кнопки
+
