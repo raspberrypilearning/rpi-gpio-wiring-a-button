@@ -1,11 +1,11 @@
-A button is one of the simplest input components you can wire to a Raspberry Pi. It's a non-polarised component, which means you can place it in a circuit either way round and it will work.
+按钮是您可以连接到Raspberry Pi的最简单的输入组件之一。 它是一个非极性元件，这意味着您不必担心以何种方式把它连到电路中。
 
-There are various types of buttons - they can for example have two or four legs. The two-leg versions are mostly used with flying wire to connect to the control device. Buttons with four legs are generally mounted on a PCB or a breadboard.
+按钮的类型有很多种 - 它们可能有两个或四个支脚。 两腿版本通常与飞线一起使用以连接到控制设备。 四脚按钮通常安装在 PCB 或面包板上。
 
-The diagrams below shows how to wire a two-leg or four-leg button to a Raspberry Pi. In both cases, **GPIO 17** is the input pin.
+下图显示了如何将两脚或四脚按钮连接到Raspberry Pi。 这两种情况下 **GPIO 17** 是输入引脚。
 
-![2-pin-btn](images/2-pin-button.png) ![4-pin-btn](images/4-pin-button.png)
+![2针按钮](images/2-pin-button.png) ![4针按钮](images/4-pin-button.png)
 
-If you are using multiple buttons, then it is often best to use a *common ground* to avoid connecting too many jumper leads to **GND** pins. You can wire the negative rail on the breadboard to a single *ground* pin, which allows all the buttons to use the same ground rail.
+如果您使用多个按钮，那么通常最好使用 *公用接地* 以避免将过多的跨接线连接到 **GND** 针脚。 您可以将面包板上的负极连接到单个 *GND* 引脚，它允许所有按钮使用同一列接地插槽。
 
-![2x4-pin-btn](images/2x4-pin-button.png)
+![2x4针按钮](images/2x4-pin-button.png)
