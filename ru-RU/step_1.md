@@ -1,11 +1,11 @@
-A button is one of the simplest input components you can wire to a Raspberry Pi. It's a non-polarised component, which means you can place it in a circuit either way round and it will work.
+Кнопка - это один из самых простых компонентов ввода, который вы можете подключить к Raspberry Pi. Это неполяризованный компонент, что означает, что вы можете поместить его в цепь в любом направлении, и он будет работать.
 
-There are various types of buttons - they can for example have two or four legs. The two-leg versions are mostly used with flying wire to connect to the control device. Buttons with four legs are generally mounted on a PCB or a breadboard.
+Существуют различные типы кнопок – например, они могут иметь две или четыре ножки. Версии с двумя ножками в основном используются с проводом для подключения к контрольному устройству. Кнопки с четырьмя ножками обычно устанавливаются на печатной плате или макетной плате.
 
-The diagrams below shows how to wire a two-leg or four-leg button to a Raspberry Pi. In both cases, **GPIO 17** is the input pin.
+На диаграммах ниже показано, как подключить кнопку с двумя или четырьмя ножками к Raspberry Pi. В обоих случаях пин **GPIO 17** является входным контактом.
 
-![2-pin-btn](images/2-pin-button.png) ![4-pin-btn](images/4-pin-button.png)
+![кнопка с 2 контактами](images/2-pin-button.png) ![кнопка с 4 контактами](images/4-pin-button.png)
 
-If you are using multiple buttons, then it is often best to use a *common ground* to avoid connecting too many jumper leads to **GND** pins. You can wire the negative rail on the breadboard to a single *ground* pin, which allows all the buttons to use the same ground rail.
+Если вы используете несколько кнопок, то часто лучше использовать *общую землю*, чтобы не подключать слишком много перемычек к контакту **GND**. Вы можете подключить отрицательную шину на макетной плате к одному контакту *земли*, и это позволит всем кнопкам использовать одну и ту же шину заземления.
 
-![2x4-pin-btn](images/2x4-pin-button.png)
+![2 кнопки с 4 контактами](images/2x4-pin-button.png)
