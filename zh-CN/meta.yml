@@ -1,0 +1,15 @@
+---
+title: 在Raspberry Pi上使用按钮
+hero_image: images/banner.png
+description: 如何将按钮连接到Raspberry Pi
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: 连接按钮
+
