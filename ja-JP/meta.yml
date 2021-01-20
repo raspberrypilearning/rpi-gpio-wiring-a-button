@@ -1,0 +1,15 @@
+---
+title: Raspberry Piでの押しボタンスイッチを使う
+hero_image: images/banner.png
+description: 押しボタンスイッチをRaspberry Piに接続する方法
+original_url:
+theme: cc-prototype
+duration: 1
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: ""
+steps:
+  - title: 押しボタンスイッチを接続する
+
