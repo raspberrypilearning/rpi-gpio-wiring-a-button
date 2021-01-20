@@ -1,11 +1,11 @@
-A button is one of the simplest input components you can wire to a Raspberry Pi. It's a non-polarised component, which means you can place it in a circuit either way round and it will work.
+押しボタンスイッチは、Raspberry Piに接続できる最も単純な入力用の部品の1つです。 極性がない部品なので、回路内でどちら向きに接続しても正常に動きます。
 
-There are various types of buttons - they can for example have two or four legs. The two-leg versions are mostly used with flying wire to connect to the control device. Buttons with four legs are generally mounted on a PCB or a breadboard.
+押しボタンスイッチにはさまざまなタイプがあります。2本ピンタイプや4本ピンタイプなどです。 2本ピンタイプは、制御装置にほとんどの場合ケーブルで配線されます。 4本ピンタイプは、通常、PCBまたはブレッドボードに取り付けられます。
 
-The diagrams below shows how to wire a two-leg or four-leg button to a Raspberry Pi. In both cases, **GPIO 17** is the input pin.
+下の図は、2本ピンタイプ、4本ピンタイプの押しボタンスイッチをRaspberry Piに配線する方法を示しています。 どちらの場合も、** GPIO 17 **は入力ピンです。
 
-![2-pin-btn](images/2-pin-button.png) ![4-pin-btn](images/4-pin-button.png)
+![2ピンタイプの押しボタンスイッチ](images/2-pin-button.png) ![4ピンタイプの押しボタンスイッチ](images/4-pin-button.png)
 
-If you are using multiple buttons, then it is often best to use a *common ground* to avoid connecting too many jumper leads to **GND** pins. You can wire the negative rail on the breadboard to a single *ground* pin, which allows all the buttons to use the same ground rail.
+複数の押しボタンスイッチを使用する場合、* GND*ピンへのジャンパーリードの接続が多くなりすぎないように、**共通グラウンド**を使用するのがベストでしょう 。 ブレッドボードのマイナスラインを1つの*グラウンド*ピンに配線します。そうすればすべての押しボタンスイッチで同じグランドラインを使用できます。
 
-![2x4-pin-btn](images/2x4-pin-button.png)
+![2×4ピンタイプの押しボタンスイッチ](images/2x4-pin-button.png)
